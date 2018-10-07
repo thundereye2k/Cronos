@@ -1,0 +1,22 @@
+name: Cronos
+main: org.sqldatabase.cronos.Main
+version: 0.1
+author: sqldatabase
+depend: [Vault, EzQueueSpigot]
+commands:
+  setspawn:
+  spawn:
+  dev123:
+  cronos:
+  msg:
+  m:
+  message:
+  tell:
+  w:
+  reply:
+  r:
+  sounds:
+  test123:
+  togglepm:
+    aliases: [tpm]
+  settings:

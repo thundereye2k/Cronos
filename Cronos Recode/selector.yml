@@ -1,0 +1,15 @@
+Build:
+  NAME: "&6&lHCF"
+  MATERIAL: DIAMOND_SWORD
+  SLOT: 12
+  QUEUE-NAME: "Build"
+  LORE:
+    - '%line%'
+    - '&e&lServer Information:'
+    - ''
+    - ' &6%doublearrow% &ePlayers&7: %online%/1000'
+    - ' &6%doublearrow% &eProtection 1, Sharpness 1.'
+    - ' &6%doublearrow% &e20 man, 1 ally.'
+    - ''
+    - '%line%'
+    

@@ -1,0 +1,227 @@
+#PlaceHolder Settings
+Server-Name: Cronos
+HWID: ""
+Teamspeak: "ts.cronos.cc"
+Discord: "discord.gg/cronos"
+Website: "www.cronos.cc"
+Store: "store.cronos.cc"
+World-Name: "world"
+No-Permission: "&cYou do not have permission for this command."
+#
+#World Spawn Location
+Spawn:
+  x: 0
+  y: 100
+  z: 0
+#
+#Join Message
+JoinMessage:
+  - "&7&m%line%"
+  - ""
+  - "&eWelcome &6%player% &eto %servername%!"
+  - " &6 %doublearrow% &eStore: &7%store%"
+  - " &6 %doublearrow% &eWebsite: &7%website%"
+  - " &6 %doublearrow% &eDiscord: &7%discord%"
+  - " &6 %doublearrow% &eTeamspeak: &7%teamspeak%"
+  - "&eYour current rank is %rank%"
+  - "&7&m%line%"
+#
+#Chat Settings
+Chat-Enabled: true
+Chat-Format: "&e%player% &6%doublearrow% &e%message%"
+#
+#Player Message Settings
+Messaging-Settings: 
+    To-Format: "&7(To &f%player%&7) %msg%"
+    From-Format: "&7(From &f%player%&7) %msg%"
+    Toggle-On: "&ePrivate messaging is now &aEnabled"
+    Toggle-Off: "&ePrivate messaging is now &cDisabled"
+#    
+#Disabled Commands
+DISABLED-COMMANDS:
+  - '//calc'
+  - '//eval'
+  - '//calculate'
+  - '/plugins'
+  - '/about'
+  
+CMD-DISABLED: '&cThe command "%command%" is disabled!'
+#
+#Scoreboard Settings
+SCOREBOARD:
+  TITLE: '&6&lHUB'
+  LINES:
+  - '&7&m--------------------'
+  - '&e&lOnline Players:'
+  - '&7%online%'
+  - ''
+  - '&e&lRank:'
+  - '&7%rank%'
+  - ''
+  - '&6&lstore.cronos.cc'
+  - '&7&m--------------------'
+  QUEUE-LINES:
+  - '&7&m--------------------'
+  - '&e&lOnline Players:'
+  - '&7%online%'
+  - ''
+  - '&e&lRank:'
+  - '&7%rank%'
+  - ''
+  - '&6&lQueue Info'
+  - '&6%doublearrow% &eName: &7%queuename%'
+  - '&6%doublearrow% &ePosition: &7%position%/%inqueue%'
+  - ''
+  - '&6&lstore.cronos.cc'
+  - '&7&m--------------------'
+  
+Queue:
+  Joined:
+    - "&8&m----------------------"
+    - "&7You have joined the queue for &e%queue%&7. Position: &e%position%&7/&e%queueamount%"
+    - "&8&m----------------------"
+  Placed_First:
+    - "&8&m----------------------"
+    - "&7You have been placed first in the queue due to your &f%rank% &7rank."
+    - "&8&m----------------------"
+  Moved:
+    - "&8&m----------------------"
+    - "&7You have been placed infront of &e%queueamount%&7 other player(s) due to your &f%rank%&7 rank."
+    - "&8&m----------------------"
+  Sent:
+    - "&6&lServer &8» &aConnected to %server%!"
+  SendDelay: 3
+  Ranks:
+    Owner:
+      Priority: 0
+    Rank1:
+      Priority: 1
+  
+#
+#Server Selector Settings
+SELECTOR:
+  GUI-TITLE: ""
+  RAINBOW-GUI: true
+  
+ARMOUR-CHANGER:
+  GUI-TITLE: "&eSelect An Armour Type"
+
+#Settings GUI
+SETTINGS:
+  GUI-TITLE: "&eSettings"
+
+GADGETS:
+  GUI-TITLE: "&eGadgets"
+  
+#Player Pop Message
+Player-Pop: "&eYou have popped &6%player%"
+
+
+#Hub Item Settings
+Items:
+  EnderButt:
+    Name: ""
+    slot: 1
+    boost: 2
+  MagicClock:
+    Name-Show: "&eShow players &7(Right Click)"
+    Name-Hide: "&eHide players &7(Right Click)"
+    slot: 9
+  Selector:
+    Name: "&eServer Selector &7(Right Click)"
+    Item: BOOK
+    slot: 5
+  Gadgets:
+    Name: "&eGadgets &9(Right Click)"
+    Item: ENDER_CHEST
+    SLOT: 8
+MAX-HEIGHT: 74
+
+#Use 0 for no speed
+Default-Speed: 3
+
+#Use 0 for no jump boost
+Default-Jumpboost: 3
+
+#Tablist Settings (Coming Soon)
+Tablist:
+  0-1: ''
+  0-2: ''
+  0-3: '&e&lCurrent Ping'
+  0-4: '%ping%ms'
+  0-5: ''
+  0-6: ''
+  0-7: ''
+  0-8: '&6Build&7:'
+  0-9: '&ePlayers&7: &f%playercount_Build%/1000'
+  0-10: ''
+  0-11: ''
+  0-12: ''
+  0-13: ''
+  0-14: ''
+  0-15: ''
+  0-16: ''
+  0-17: '&6&lUptime'
+  0-18: '&e%uptime%'
+  0-19: ''
+  0-20: '&estore.cronos.cc'
+  1-1: '&6&lCronos'
+  1-2: ''
+  1-3: '&e&lCurrent Rank'
+  1-4: '%rank%'
+  1-5: ''
+  1-6: ''
+  1-7: ''
+  1-8: ''
+  1-9: ''
+  1-10: ''
+  1-11: ''
+  1-12: ''
+  1-13: ''
+  1-14: ''
+  1-15: ''
+  1-16: ''
+  1-17: ''
+  1-18: ''
+  1-19: ''
+  1-20: ''
+  2-1: ''
+  2-2: ''
+  2-3: '&e&lOnline Players'
+  2-4: '%online%'
+  2-5: ''
+  2-6: ''
+  2-7: ''
+  2-8: ''
+  2-9: ''
+  2-10: ''
+  2-11: ''
+  2-12: ''
+  2-13: ''
+  2-14: ''
+  2-15: ''
+  2-16: ''
+  2-17: '&6Playtime'
+  2-18: '%playtime%'
+  2-19: ''
+  2-20: '&ewww.cronos.cc'
+  3-1: ''
+  3-2: ''
+  3-3: ''
+  3-4: ''
+  3-5: ''
+  3-6: ''
+  3-7: ''
+  3-8: ''
+  3-9: '&cWarning: &7We recommend'
+  3-10: using 1.8 for optimal
+  3-11: '&7playing experience'
+  3-12: ''
+  3-13: ''
+  3-14: ''
+  3-15: ''
+  3-16: ''
+  3-17: ''
+  3-18: ''
+  3-19: ''
+  3-20: ''
