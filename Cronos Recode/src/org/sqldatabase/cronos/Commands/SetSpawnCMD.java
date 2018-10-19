@@ -16,7 +16,7 @@ public class SetSpawnCMD implements CommandExecutor {
 			if(sender instanceof Player) {
 				if(p.hasPermission("hub.admin")) {
 					CronosUtils.setSpawn(p);
-					p.sendMessage("§aSpawn location set to your current location");
+					p.sendMessage("Â§aSpawn location set to your current location");
 				} else {
 					p.sendMessage(Settings.noperm);
 				}

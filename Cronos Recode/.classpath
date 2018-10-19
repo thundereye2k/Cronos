@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/Downloads/paperspigot-1.7.10-R0.1-SNAPSHOT.jar"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Connors gaming PC/Documents/Servers and Configs/Dependancies/Spigots/PaperSpigot-1.7.10-R0.1-SNAPSHOT-latest (1).jar"/>
-	<classpathentry kind="lib" path="C:/Users/Connors gaming PC/Documents/Servers and Configs/Dependancies/Plugins/EzQueueSpigot.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Connors gaming PC/Documents/Servers and Configs/Dependancies/Utils/lombok.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Connors gaming PC/Documents/Servers and Configs/Dependancies/Utils/Vault.jar"/>
+	<classpathentry kind="lib" path="F:/Dev shit/Plugin Depends/Hub Core/EzQueueBungee.jar"/>
+	<classpathentry kind="lib" path="F:/Dev shit/Plugin Depends/Hub Core/EzQueueSpigot.jar"/>
+	<classpathentry kind="lib" path="F:/Dev shit/Plugin Depends/Hub Core/PermissionsEx-1.22.10.jar"/>
+	<classpathentry kind="lib" path="F:/Dev shit/Plugin Depends/Hub Core/Vault.jar"/>
+	<classpathentry kind="lib" path="F:/Dev shit/Plugin Depends/Lombok-1.6.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

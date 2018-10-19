@@ -21,7 +21,7 @@ public class ReplyCMD implements CommandExecutor {
 		if(c.equalsIgnoreCase("r") || c.equalsIgnoreCase("reply")) {
 			if(p.hasPermission("hub.reply")) {
 				if(args.length == 0) {
-					p.sendMessage("§cUsage: /" + c + " <Message..>");
+					p.sendMessage("Â§cUsage: /" + c + " <Message..>");
 				} else if (args.length >= 1) {
 					String message = "";
 					for (int i = 0; i < args.length; i++) {
@@ -36,13 +36,13 @@ public class ReplyCMD implements CommandExecutor {
 								target.sendMessage(ChatColor.translateAlternateColorCodes('&', config.getString("Messaging-Settings.From-Format").replace("%player%", p.getName()).replace("%msg%", message)));
 								p.sendMessage(ChatColor.translateAlternateColorCodes('&', config.getString("Messaging-Settings.To-Format").replace("%player%", target.getName()).replace("%msg%", message)));
 							} else {
-								p.sendMessage("§cThat player is not online.");
+								p.sendMessage("Â§cThat player is not online.");
 							}
 						} else {
-							p.sendMessage("§cThat player is not online.");
+							p.sendMessage("Â§cThat player is not online.");
 						}
 					} else {
-						p.sendMessage("§cYou have not messaged anyone.");
+						p.sendMessage("Â§cYou have not messaged anyone.");
 					}
 				}
 			} else {

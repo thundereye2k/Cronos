@@ -16,7 +16,7 @@ public class SpawnCMD implements CommandExecutor {
 				Player p = (Player) sender;
 				if(p.hasPermission("hub.spawn")) {
 					p.teleport(CronosUtils.getSpawn());
-					p.sendMessage("§aYou have been teleported to spawn");
+					p.sendMessage("Â§aYou have been teleported to spawn");
 				} else {
 					p.sendMessage(Settings.noperm);
 				}

@@ -16,8 +16,8 @@ public class CronosCMD implements CommandExecutor {
 			if(args.length == 0) {
 				p.sendMessage(CronosUtils.chatline);
 				p.sendMessage("");
-				p.sendMessage(" §6» §eAuthor: readUTF");
-				p.sendMessage(" §6» §eAuthor: " + Main.instance.getDescription().getVersion());
+				p.sendMessage(" Â§6Â» Â§eAuthor: readUTF and ApiFile");
+				p.sendMessage(" Â§6Â» Â§eAuthor: " + Main.instance.getDescription().getVersion());
 				p.sendMessage("");
 				p.sendMessage(CronosUtils.chatline);
 			} else if (args.length == 1) {
@@ -28,7 +28,7 @@ public class CronosCMD implements CommandExecutor {
 						Main.selector.reloadConfig();
 						long after = System.currentTimeMillis();
 						long calculated = after - before;
-						p.sendMessage("§aConfigs successfuly reloaded in " + calculated + "ms");
+						p.sendMessage("Â§aConfigs successfuly reloaded in " + calculated + "ms");
 					}
 				}
 			}

@@ -16,11 +16,11 @@ public class SoundsCMD implements CommandExecutor {
 			if(MsgCMD.sounds.get(p.getUniqueId()).equals(true)) {
 				MsgCMD.sounds.remove(p.getUniqueId());
 				MsgCMD.sounds.put(p.getUniqueId(), false);
-				p.sendMessage("ง7You will no longer hear message sounds.");
+				p.sendMessage("ยง7You will no longer hear message sounds.");
 			} else {
 				MsgCMD.sounds.remove(p.getUniqueId());
 				MsgCMD.sounds.put(p.getUniqueId(), true);
-				p.sendMessage("ง7You will now hear message sounds.");
+				p.sendMessage("ยง7You will now hear message sounds.");
 			}
 		}
 		return true;
